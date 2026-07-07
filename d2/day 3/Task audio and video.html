@@ -3,21 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Audio and Video Attributes</title>
 </head>
 <body>
+    <center style="margin: 0; font-family: Arial, sans-serif; background: #f2f6fc;">
+        <h1 style="text-align: center; background-color: aqua; border: 2px solid #000;">HTML Audio and Video Attributes Task</h1>
+        <hr>
+        <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">Audio Examples</h2>
+
+    
     <section>
-        <div>
+        <div style="margin-bottom: 20px;">
+            <h2 style="text-align: center; background-color: aqua; border: 2px solid #000;">1.Basic Audio Player</h2>
+            <p>This is a basic audio player with controls for play, pause, and volume.</p>
             <audio controls>
                 <source src="./alexzavesa-calm-inspiring-technology-logo-short-version-518993.mp3" type="audio/mpeg">
+                <hr>
             </audio>
         </div>
         <div>
+            <h2 style="text-align: center; background-color: aqua; border: 2px solid #000;">2.Autoplay Audio</h2>
+            <p>This audio will start playing as soon as the page loads.</p>
             <audio controls autoplay>
                 <source src="./alexzavesa-calm-inspiring-technology-logo-short-version-518993.mp3" type="audio/mpeg">
+                <hr>
 
             </audio>
         </div>
+        <div>
+            <h2 style="text-align: center; background-color: aqua; border: 2px solid #000;">3.Looping Audio</h2>
+            <p>This audio will loop continuously.</p>
+            <audio controls loop>
+                <source src="./alexzavesa-calm-inspiring-technology-logo-short-version-518993.mp3" type="audio/mpeg">
+                <hr>
+
+            </audio>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: aqua; border: 2px solid #000;">4.Muted Audio</h2>
+            <p>This audio will play without sound.</p>
+            <audio controls muted>
+                <source src="./alexzavesa-calm-inspiring-technology-logo-short-version-518993.mp3" type="audio/mpeg">
+                <hr>
+
+            </audio>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: aqua; border: 2px solid #000;">5.Preload Audio</h2>
+            <p>This audio will preload before the user interacts with it.</p>
+            <audio controls preload="auto">
+                <source src="./alexzavesa-calm-inspiring-technology-logo-short-version-518993.mp3" type="audio/mpeg">
+                <hr>
+
+                </audio>
+    </section>
+    </center>
+    <section>
+        <center style="margin: 0; font-family: Arial, sans-serif; background: #f2f6fc;">
+        <div style="margin-bottom: 20px;">
+            <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">Video Examples</h2>
+            <video width="320" height="240" controls>
+                <source src="./107900-679600381_medium.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">1.Autoplay Video</h2>
+            <p>This video will start playing as soon as the page loads.</p>
+            <video width="320" height="240" controls autoplay>
+                <source src="./14937-259623366.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">2.Looping Video</h2>
+            <p>This video will loop continuously.</p>
+            <video width="320" height="240" controls loop>
+                <source src="./198791-908857545_medium.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">3.Muted Video</h2>
+            <p>This video will play without sound.</p>
+            <video width="320" height="240" controls muted>
+                <source src="./14937-259623366.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: palevioletred; border: 2px solid #000;">4.Preload Video</h2>
+            <p>This video will preload before the user interacts with it.</p>
+            <video width="320" height="240" controls preload="auto">
+                <source src="./pexels-artem-podrez-5752729.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 style="text-align: center; background-color: blue; border: 2px solid #000;">5.Video with Poster</h2>
+            <p>This video will display a poster image before playing.</p>
+            <video width="320" height="240" controls poster="./poster-image.jpg">
+                <source src="./pexels-artem-podrez-5752729.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </center>
     </section>
     
 </body>
