@@ -1,0 +1,21 @@
+div p {
+            color: blue;
+        }
+        div>p {
+            background-color: yellow;
+        }
+        h3+p {
+            color: red;
+        }
+        h4~p {
+            color: green;
+        }
+        a[href^="https"] {
+            color: green;
+        }
+        a[href$=".pdf"] {
+            background-color: yellow;
+        }
+        a[href*="google"] {
+            text-decoration: underline;
+        }
