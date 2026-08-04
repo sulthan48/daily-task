@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("https://img.freepik.com/premium-photo/steel-trusses-industrial-background_675836-826.jpg");
+
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+header {
+
+    background-color: rgba(0, 51, 102, 0.85);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px;
+
+    border-bottom: 5px solid orange;
+
+}
+
+nav {
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    text-align: center;
+
+    padding: 15px;
+
+    border-bottom: 3px solid yellow;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 20px;
+
+    font-size: 18px;
+
+}
+
+section {
+
+    width: 85%;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    border: 3px solid #003366;
+
+    border-radius: 15px;
+
+}
+
+
+h2 {
+
+    color: #003366;
+
+    margin-bottom: 15px;
+
+}
+
+footer {
+
+    background-color: rgba(0, 51, 102, 0.9);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    border-top: 5px solid orange;
+
+}
+
+@media(max-width:768px) {
+
+    nav a {
+
+        display: block;
+
+        margin: 10px;
+
+    }
+
+
+    section {
+
+        width: 90%;
+
+    }
+
+}
+
+
+@media(max-width:480px) {
+
+    header h1 {
+
+        font-size: 25px;
+
+    }
+
+
+    section {
+
+        width: 95%;
+
+        padding: 15px;
+
+    }
+
+}

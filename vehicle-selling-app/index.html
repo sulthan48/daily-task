@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vehicle Selling App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <h1>AutoMarket</h1>
+        <p>Find your perfect ride</p>
+      </div>
+      <nav>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h2>Buy or sell vehicles with confidence</h2>
+          <p>Browse cars, trucks, bikes, and more from trusted sellers.</p>
+          <a class="cta-button" href="#vehicles">Browse Listings</a>
+        </div>
+        <img src="vehicle-showcase.jpg" alt="Vehicle showcase" />
+      </section>
+
+      <section id="vehicles" class="vehicles-section">
+        <h2>Featured Vehicles</h2>
+        <div class="vehicle-grid">
+          <article class="vehicle-card">
+            <img src="car1.jpg" alt="Red sports car" />
+            <div class="vehicle-info">
+              <h3>2024 Sport X</h3>
+              <p>Automatic • 15,000 km • $28,900</p>
+              <button>View Details</button>
+            </div>
+          </article>
+          <article class="vehicle-card">
+            <img src="suv.jpg" alt="Blue SUV" />
+            <div class="vehicle-info">
+              <h3>2023 Urban SUV</h3>
+              <p>All-wheel drive • 20,000 km • $34,500</p>
+              <button>View Details</button>
+            </div>
+          </article>
+          <article class="vehicle-card">
+            <img src="bike.jpg" alt="Black motorcycle" />
+            <div class="vehicle-info">
+              <h3>2022 Street Bike</h3>
+              <p>600cc • 5,500 km • $12,900</p>
+              <button>View Details</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="info-section">
+        <h2>How It Works</h2>
+        <div class="features">
+          <div>
+            <h3>List a Vehicle</h3>
+            <p>Create a listing with photos, specs, price, and contact details.</p>
+          </div>
+          <div>
+            <h3>Search & Compare</h3>
+            <p>Filter by make, model, year, price, or type to find the right vehicle fast.</p>
+          </div>
+          <div>
+            <h3>Contact Seller</h3>
+            <p>Send a message directly and schedule a test drive or inspection.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Full name" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email address" />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Tell us what you need"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 AutoMarket. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
